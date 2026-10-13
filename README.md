@@ -2,6 +2,10 @@
 
 **A crowd operations simulation backed by an ICT project management case study.**
 
+[**Open the live demo →**](https://amirhamzaaaa4.github.io/riverfire-ops/) · [Automated checks](https://github.com/amirhamzaaaa4/riverfire-ops/actions/workflows/ci.yml)
+
+![Verification workflow](https://github.com/amirhamzaaaa4/riverfire-ops/actions/workflows/ci.yml/badge.svg)
+
 Plan the delivery. Inspect the requirements. Explore a crowd surge. Record and acknowledge a simulated incident.
 
 The demo includes a precinct overview, synthetic telemetry, an incident workflow and a source delivery board.

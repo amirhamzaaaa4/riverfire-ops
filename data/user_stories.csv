@@ -1,0 +1,84 @@
+status,milestone,ref,subject,description
+Ready for test,sprint1,6,Real-time crowd monitoring,"As a safety officer, I want to monitor crowd density in real time so that I can identify overcrowded areas and respond quickly to safety risks.
+
+Value: 2500
+Effort: 8
+
+Acceptance Criteria:
+
+- The dashboard displays live crowd density data
+- Overcrowded areas are highlighted automatically
+- Crowd information refreshes in real time
+- Safety officers receive alerts when crowd limits are exceeded
+- Data is displayed correctly on desktop and mobile devices"
+In progress,sprint2,9,System integration testing,"As an IT administrator, I want the crowd monitoring system to be fully tested before deployment so that the platform operates reliably during the Riverfire event.
+
+Value: 2600
+Effort: 7
+
+Acceptance Criteria:
+
+All modules are tested successfully.
+System errors are identified and resolved.
+The dashboard performs correctly under heavy traffic.
+Security vulnerabilities are checked before deployment.
+The final system is approved for production use."
+New,,7,Emergency alert notifications,"As a safety officer, I want emergency alerts to be sent instantly so that visitors and staff can respond quickly during emergencies.
+
+Value: 2200
+Effort: 5
+
+Acceptance Criteria:
+
+Emergency alerts can be triggered manually.
+Notifications are sent to all connected users.
+Alerts display emergency instructions clearly.
+The system records alert history.
+Alerts are delivered within a few seconds."
+In progress,sprint2,23,Emergency evacuation guidance,"As an event visitor, I want emergency evacuation instructions to appear instantly so that I can leave dangerous areas safely.
+
+Value: 2100
+Effort: 5
+
+Acceptance Criteria:
+Evacuation instructions appear instantly.
+Emergency exits are displayed clearly.
+Notifications are sent to connected devices.
+Instructions remain visible during high traffic.
+The system supports mobile and desktop devices."
+New,,40,Visitor check-in analytics,"As an event coordinator, I want to view visitor check-in analytics so that I can monitor entry patterns during the event.
+
+Value: 1800
+Effort: 3
+
+Acceptance Criteria:
+
+• The system records visitor check-in times
+• Entry statistics are displayed on the dashboard
+• Peak entry periods are identified automatically
+• Data updates in near real time
+• Analytics can be viewed on desktop and mobile devices"
+In progress,sprint1,8,Emergency communication dashboard,"As an emergency coordinator, I want a central communication dashboard so that I can monitor incidents and coordinate responses efficiently.
+
+Value: 2400
+Effort: 6
+
+Acceptance Criteria:
+
+The dashboard displays live incident updates.
+Emergency staff can send announcements through the dashboard.
+Communication logs are stored securely.
+The dashboard supports desktop and mobile access.
+System response time remains stable during high traffic."
+New,sprint2,22,Crowd heatmap visualization,"As a safety officer, I want crowd density to be displayed as a heatmap so that I can quickly identify dangerous overcrowded areas.
+
+Value: 2300
+Effort: 6
+
+Acceptance Criteria:
+
+Heatmaps display crowd density accurately.
+High-risk areas are highlighted automatically.
+Heatmap refreshes every few seconds.
+The visualization works on desktop and mobile devices.
+System performance remains stable during large events."

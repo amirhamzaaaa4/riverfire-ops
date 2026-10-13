@@ -1,0 +1,329 @@
+{
+  "epics": [
+    {
+      "ref": 2,
+      "status": "Ready for test",
+      "subject": "Crowd Monitoring System",
+      "description": "Development of real-time crowd monitoring functions for Brisbane Riverfire 2026."
+    },
+    {
+      "ref": 3,
+      "status": "New",
+      "subject": "Safety Alert Management",
+      "description": "System for generating alerts during overcrowding and emergency situations."
+    },
+    {
+      "ref": 4,
+      "status": "In progress",
+      "subject": "Emergency Communication Dashboard",
+      "description": "Dashboard for communication between safety officers and event management."
+    },
+    {
+      "ref": 5,
+      "status": "In progress",
+      "subject": "System Testing and Deployment",
+      "description": "Testing, bug fixing, and deployment of the crowd monitoring dashboard."
+    }
+  ],
+  "user_stories": [
+    {
+      "status": "Ready for test",
+      "milestone": "sprint1",
+      "ref": 6,
+      "subject": "Real-time crowd monitoring",
+      "description": "As a safety officer, I want to monitor crowd density in real time so that I can identify overcrowded areas and respond quickly to safety risks.\n\nValue: 2500\nEffort: 8\n\nAcceptance Criteria:\n\n- The dashboard displays live crowd density data\n- Overcrowded areas are highlighted automatically\n- Crowd information refreshes in real time\n- Safety officers receive alerts when crowd limits are exceeded\n- Data is displayed correctly on desktop and mobile devices"
+    },
+    {
+      "status": "In progress",
+      "milestone": "sprint2",
+      "ref": 9,
+      "subject": "System integration testing",
+      "description": "As an IT administrator, I want the crowd monitoring system to be fully tested before deployment so that the platform operates reliably during the Riverfire event.\n\nValue: 2600\nEffort: 7\n\nAcceptance Criteria:\n\nAll modules are tested successfully.\nSystem errors are identified and resolved.\nThe dashboard performs correctly under heavy traffic.\nSecurity vulnerabilities are checked before deployment.\nThe final system is approved for production use."
+    },
+    {
+      "status": "New",
+      "milestone": null,
+      "ref": 7,
+      "subject": "Emergency alert notifications",
+      "description": "As a safety officer, I want emergency alerts to be sent instantly so that visitors and staff can respond quickly during emergencies.\n\nValue: 2200\nEffort: 5\n\nAcceptance Criteria:\n\nEmergency alerts can be triggered manually.\nNotifications are sent to all connected users.\nAlerts display emergency instructions clearly.\nThe system records alert history.\nAlerts are delivered within a few seconds."
+    },
+    {
+      "status": "In progress",
+      "milestone": "sprint2",
+      "ref": 23,
+      "subject": "Emergency evacuation guidance",
+      "description": "As an event visitor, I want emergency evacuation instructions to appear instantly so that I can leave dangerous areas safely.\n\nValue: 2100\nEffort: 5\n\nAcceptance Criteria:\nEvacuation instructions appear instantly.\nEmergency exits are displayed clearly.\nNotifications are sent to connected devices.\nInstructions remain visible during high traffic.\nThe system supports mobile and desktop devices."
+    },
+    {
+      "status": "New",
+      "milestone": null,
+      "ref": 40,
+      "subject": "Visitor check-in analytics",
+      "description": "As an event coordinator, I want to view visitor check-in analytics so that I can monitor entry patterns during the event.\n\nValue: 1800\nEffort: 3\n\nAcceptance Criteria:\n\n• The system records visitor check-in times\n• Entry statistics are displayed on the dashboard\n• Peak entry periods are identified automatically\n• Data updates in near real time\n• Analytics can be viewed on desktop and mobile devices"
+    },
+    {
+      "status": "In progress",
+      "milestone": "sprint1",
+      "ref": 8,
+      "subject": "Emergency communication dashboard",
+      "description": "As an emergency coordinator, I want a central communication dashboard so that I can monitor incidents and coordinate responses efficiently.\n\nValue: 2400\nEffort: 6\n\nAcceptance Criteria:\n\nThe dashboard displays live incident updates.\nEmergency staff can send announcements through the dashboard.\nCommunication logs are stored securely.\nThe dashboard supports desktop and mobile access.\nSystem response time remains stable during high traffic."
+    },
+    {
+      "status": "New",
+      "milestone": "sprint2",
+      "ref": 22,
+      "subject": "Crowd heatmap visualization",
+      "description": "As a safety officer, I want crowd density to be displayed as a heatmap so that I can quickly identify dangerous overcrowded areas.\n\nValue: 2300\nEffort: 6\n\nAcceptance Criteria:\n\nHeatmaps display crowd density accurately.\nHigh-risk areas are highlighted automatically.\nHeatmap refreshes every few seconds.\nThe visualization works on desktop and mobile devices.\nSystem performance remains stable during large events."
+    }
+  ],
+  "tasks": [
+    {
+      "status": "Ready for test",
+      "user_story": 6,
+      "milestone": "sprint1",
+      "ref": 10,
+      "subject": "Develop crowd data collection module",
+      "description": ""
+    },
+    {
+      "status": "In progress",
+      "user_story": 6,
+      "milestone": "sprint1",
+      "ref": 11,
+      "subject": "Implement live monitoring dashboard",
+      "description": ""
+    },
+    {
+      "status": "New",
+      "user_story": 6,
+      "milestone": "sprint1",
+      "ref": 12,
+      "subject": "Test real-time analytics",
+      "description": ""
+    },
+    {
+      "status": "New",
+      "user_story": 6,
+      "milestone": "sprint1",
+      "ref": 13,
+      "subject": "Fix monitoring bugs",
+      "description": ""
+    },
+    {
+      "status": "Ready for test",
+      "user_story": 8,
+      "milestone": "sprint1",
+      "ref": 14,
+      "subject": "Design emergency alert interface",
+      "description": ""
+    },
+    {
+      "status": "In progress",
+      "user_story": 8,
+      "milestone": "sprint1",
+      "ref": 15,
+      "subject": "Develop emergency messaging system",
+      "description": ""
+    },
+    {
+      "status": "New",
+      "user_story": 8,
+      "milestone": "sprint1",
+      "ref": 16,
+      "subject": "Implement notification API",
+      "description": ""
+    },
+    {
+      "status": "New",
+      "user_story": 8,
+      "milestone": "sprint1",
+      "ref": 17,
+      "subject": "Test emergency alerts",
+      "description": ""
+    },
+    {
+      "status": "Ready for test",
+      "user_story": 9,
+      "milestone": "sprint2",
+      "ref": 18,
+      "subject": "Perform integration testing",
+      "description": ""
+    },
+    {
+      "status": "In progress",
+      "user_story": 9,
+      "milestone": "sprint2",
+      "ref": 19,
+      "subject": "Conduct security vulnerability testing",
+      "description": ""
+    },
+    {
+      "status": "New",
+      "user_story": 9,
+      "milestone": "sprint2",
+      "ref": 20,
+      "subject": "Fix deployment issues",
+      "description": ""
+    },
+    {
+      "status": "New",
+      "user_story": 9,
+      "milestone": "sprint2",
+      "ref": 21,
+      "subject": "Approve production deployment",
+      "description": ""
+    },
+    {
+      "status": "Ready for test",
+      "user_story": 22,
+      "milestone": "sprint2",
+      "ref": 24,
+      "subject": "Design heatmap layout",
+      "description": ""
+    },
+    {
+      "status": "In progress",
+      "user_story": 22,
+      "milestone": "sprint2",
+      "ref": 25,
+      "subject": "Develop heatmap rendering",
+      "description": ""
+    },
+    {
+      "status": "New",
+      "user_story": 22,
+      "milestone": "sprint2",
+      "ref": 26,
+      "subject": "Integrate live crowd data",
+      "description": ""
+    },
+    {
+      "status": "New",
+      "user_story": 22,
+      "milestone": "sprint2",
+      "ref": 27,
+      "subject": "Test heatmap responsiveness",
+      "description": ""
+    },
+    {
+      "status": "Ready for test",
+      "user_story": 23,
+      "milestone": "sprint2",
+      "ref": 28,
+      "subject": "Design evacuation interface",
+      "description": ""
+    },
+    {
+      "status": "In progress",
+      "user_story": 23,
+      "milestone": "sprint2",
+      "ref": 29,
+      "subject": "Develop emergency notification module",
+      "description": ""
+    },
+    {
+      "status": "New",
+      "user_story": 23,
+      "milestone": "sprint2",
+      "ref": 30,
+      "subject": "Integrate evacuation routes",
+      "description": ""
+    },
+    {
+      "status": "New",
+      "user_story": 23,
+      "milestone": "sprint2",
+      "ref": 31,
+      "subject": "Test evacuation alerts",
+      "description": ""
+    }
+  ],
+  "issues": [
+    {
+      "status": "New",
+      "priority": "High",
+      "severity": "Important",
+      "type": "Enhancement",
+      "ref": 39,
+      "subject": "Notification API response timeout",
+      "description": "The notification API occasionally takes too long to respond during heavy traffic simulations.\n\nLikelihood:\nHigh — high traffic can overload API requests.\n\nImpact:\nHigh — delayed notifications may affect emergency communication.\n\nControl:\nMonitor API response times during stress testing.\n\nMitigation:\nImplement API optimisation and load balancing techniques."
+    },
+    {
+      "status": "Ready for test",
+      "priority": "Normal",
+      "severity": "Normal",
+      "type": "Bug",
+      "ref": 38,
+      "subject": "Mobile dashboard layout overlap",
+      "description": "Some dashboard elements overlap on smaller mobile screens during testing.\n\nLikelihood:\nMedium — mobile devices use different screen resolutions.\n\nImpact:\nMedium — users may not be able to view important crowd information properly.\n\nControl:\nPerform responsive design testing across multiple devices.\n\nMitigation:\nImprove mobile UI responsiveness and adjust layout scaling."
+    },
+    {
+      "status": "In progress",
+      "priority": "Normal",
+      "severity": "Normal",
+      "type": "Bug",
+      "ref": 37,
+      "subject": "Emergency alert sound delay",
+      "description": "Audio emergency alerts are delayed by several seconds after activation.\n\nLikelihood:\nMedium — network latency may affect alert delivery speed.\n\nImpact:\nMedium — delayed alerts may reduce response effectiveness during emergencies.\n\nControl:\nTest alert timing under different network conditions.\n\nMitigation:\nImprove notification delivery optimisation and reduce audio processing delay."
+    },
+    {
+      "status": "In progress",
+      "priority": "High",
+      "severity": "Critical",
+      "type": "Enhancement",
+      "ref": 36,
+      "subject": "High server resource usage during peak traffic",
+      "description": "Server CPU and memory usage increase significantly during large crowd simulations.\n\nLikelihood:\nHigh — thousands of users may access the dashboard during Riverfire.\n\nImpact:\nHigh — system slowdown may affect real-time monitoring performance.\n\nControl:\nMonitor server performance continuously during testing.\n\nMitigation:\nUpgrade server resources and optimise backend processing."
+    },
+    {
+      "status": "New",
+      "priority": "High",
+      "severity": "Important",
+      "type": "Bug",
+      "ref": 35,
+      "subject": "Incorrect crowd count synchronization",
+      "description": "Crowd numbers displayed on the dashboard do not always match the sensor data during testing.\n\nLikelihood:\nMedium — synchronization problems may occur when multiple sensors send data simultaneously.\n\nImpact:\nHigh — inaccurate crowd information may affect safety decisions.\n\nControl:\nValidate incoming sensor data before updating the dashboard.\n\nMitigation:\nImplement automated data consistency checks and monitoring tools."
+    },
+    {
+      "status": "New",
+      "priority": "Normal",
+      "severity": "Normal",
+      "type": "Enhancement",
+      "ref": 34,
+      "subject": "Heatmap loading performance issue",
+      "description": "The crowd heatmap takes longer to load when crowd density increases significantly.\n\nLikelihood:\nMedium — visual processing demand may increase during peak crowd activity.\n\nImpact:\nMedium — slower heatmap updates may reduce monitoring efficiency.\n\nControl:\nOptimise heatmap rendering and database queries.\n\nMitigation:\nUse caching techniques and reduce unnecessary graphical processing."
+    },
+    {
+      "status": "Ready for test",
+      "priority": "Normal",
+      "severity": "Important",
+      "type": "Bug",
+      "ref": 33,
+      "subject": "Emergency notifications not appearing on mobile devices",
+      "description": "The crowd monitoring dashboard refreshes slower than expected during high traffic simulation.\n\nLikelihood:\nHigh — large crowd events may overload the system during peak periods.\n\nImpact:\nHigh — delayed updates may prevent safety officers from responding quickly to dangerous crowd situations.\n\nControl:\nImprove server optimisation and reduce unnecessary background processes.\n\nMitigation:\nPerform load testing and implement performance monitoring before deployment."
+    },
+    {
+      "status": "In progress",
+      "priority": "High",
+      "severity": "Important",
+      "type": "Bug",
+      "ref": 32,
+      "subject": "Delay in live crowd data refresh",
+      "description": "The crowd monitoring dashboard refreshes slower than expected during high traffic simulation.\n\nLikelihood:  \nHigh — large crowd events may overload the system during peak periods.\n\nImpact:  \nHigh — delayed updates may prevent safety officers from responding quickly to dangerous crowd situations.\n\nControl:  \nImprove server optimisation and reduce unnecessary background processes.\n\nMitigation:  \nPerform load testing and implement performance monitoring before deployment."
+    }
+  ],
+  "milestones": [
+    {
+      "name": "sprint1",
+      "estimated_start": "2026-04-01",
+      "estimated_finish": "2026-04-30",
+      "closed": false
+    },
+    {
+      "name": "sprint2",
+      "estimated_start": "2026-05-27",
+      "estimated_finish": "2026-06-10",
+      "closed": false
+    }
+  ]
+}

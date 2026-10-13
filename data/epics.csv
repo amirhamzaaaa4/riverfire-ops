@@ -1,0 +1,5 @@
+ref,status,subject,description
+2,Ready for test,Crowd Monitoring System,Development of real-time crowd monitoring functions for Brisbane Riverfire 2026.
+3,New,Safety Alert Management,System for generating alerts during overcrowding and emergency situations.
+4,In progress,Emergency Communication Dashboard,Dashboard for communication between safety officers and event management.
+5,In progress,System Testing and Deployment,"Testing, bug fixing, and deployment of the crowd monitoring dashboard."

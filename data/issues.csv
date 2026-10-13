@@ -1,0 +1,105 @@
+status,priority,severity,type,ref,subject,description
+New,High,Important,Enhancement,39,Notification API response timeout,"The notification API occasionally takes too long to respond during heavy traffic simulations.
+
+Likelihood:
+High — high traffic can overload API requests.
+
+Impact:
+High — delayed notifications may affect emergency communication.
+
+Control:
+Monitor API response times during stress testing.
+
+Mitigation:
+Implement API optimisation and load balancing techniques."
+Ready for test,Normal,Normal,Bug,38,Mobile dashboard layout overlap,"Some dashboard elements overlap on smaller mobile screens during testing.
+
+Likelihood:
+Medium — mobile devices use different screen resolutions.
+
+Impact:
+Medium — users may not be able to view important crowd information properly.
+
+Control:
+Perform responsive design testing across multiple devices.
+
+Mitigation:
+Improve mobile UI responsiveness and adjust layout scaling."
+In progress,Normal,Normal,Bug,37,Emergency alert sound delay,"Audio emergency alerts are delayed by several seconds after activation.
+
+Likelihood:
+Medium — network latency may affect alert delivery speed.
+
+Impact:
+Medium — delayed alerts may reduce response effectiveness during emergencies.
+
+Control:
+Test alert timing under different network conditions.
+
+Mitigation:
+Improve notification delivery optimisation and reduce audio processing delay."
+In progress,High,Critical,Enhancement,36,High server resource usage during peak traffic,"Server CPU and memory usage increase significantly during large crowd simulations.
+
+Likelihood:
+High — thousands of users may access the dashboard during Riverfire.
+
+Impact:
+High — system slowdown may affect real-time monitoring performance.
+
+Control:
+Monitor server performance continuously during testing.
+
+Mitigation:
+Upgrade server resources and optimise backend processing."
+New,High,Important,Bug,35,Incorrect crowd count synchronization,"Crowd numbers displayed on the dashboard do not always match the sensor data during testing.
+
+Likelihood:
+Medium — synchronization problems may occur when multiple sensors send data simultaneously.
+
+Impact:
+High — inaccurate crowd information may affect safety decisions.
+
+Control:
+Validate incoming sensor data before updating the dashboard.
+
+Mitigation:
+Implement automated data consistency checks and monitoring tools."
+New,Normal,Normal,Enhancement,34,Heatmap loading performance issue,"The crowd heatmap takes longer to load when crowd density increases significantly.
+
+Likelihood:
+Medium — visual processing demand may increase during peak crowd activity.
+
+Impact:
+Medium — slower heatmap updates may reduce monitoring efficiency.
+
+Control:
+Optimise heatmap rendering and database queries.
+
+Mitigation:
+Use caching techniques and reduce unnecessary graphical processing."
+Ready for test,Normal,Important,Bug,33,Emergency notifications not appearing on mobile devices,"The crowd monitoring dashboard refreshes slower than expected during high traffic simulation.
+
+Likelihood:
+High — large crowd events may overload the system during peak periods.
+
+Impact:
+High — delayed updates may prevent safety officers from responding quickly to dangerous crowd situations.
+
+Control:
+Improve server optimisation and reduce unnecessary background processes.
+
+Mitigation:
+Perform load testing and implement performance monitoring before deployment."
+In progress,High,Important,Bug,32,Delay in live crowd data refresh,"The crowd monitoring dashboard refreshes slower than expected during high traffic simulation.
+
+Likelihood:  
+High — large crowd events may overload the system during peak periods.
+
+Impact:  
+High — delayed updates may prevent safety officers from responding quickly to dangerous crowd situations.
+
+Control:  
+Improve server optimisation and reduce unnecessary background processes.
+
+Mitigation:  
+Perform load testing and implement performance monitoring before deployment."

@@ -20,13 +20,7 @@ The repository demonstrates skills relevant to **IT project coordination, junior
 
 ## Try it in two minutes
 
-Install Node.js 22 or newer, then run:
-
-```sh
-npm start
-```
-
-Open **http://127.0.0.1:4173**. No dependencies, API keys or account are required.
+**[Open the live Riverfire Ops dashboard](https://amirhamzaaaa4.github.io/riverfire-ops/)**. No installation or account is required.
 
 1. Choose **Crowd surge** and inspect South Bank's critical signal.
 2. Record a demo incident and acknowledge it in the incident log.
@@ -34,9 +28,17 @@ Open **http://127.0.0.1:4173**. No dependencies, API keys or account are require
 4. Choose **Sensor outage**: Kangaroo Point becomes **Unknown**, and the total excludes its stale reading.
 5. Open **Delivery board** to inspect seven original requirements and their source statuses.
 
+### Optional local development
+
+To run your own copy, install Node.js 22 or newer, download or clone this repository, and run these commands from the project folder:
+
 ```sh
-npm test
+npm start
 ```
+
+Keep that command running, then enter `http://127.0.0.1:4173` in your browser. This address works only when your local server is running. To view the project without setup, use the live dashboard link above.
+
+Run the automated tests with `npm test`.
 
 ## What is included
 

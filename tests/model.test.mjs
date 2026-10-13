@@ -1,0 +1,8 @@
+import test from 'node:test';import assert from 'node:assert/strict';
+import {classify,snapshot,createIncident,acknowledge,exportIncidents} from '../src/model.mjs';
+test('occupancy thresholds at 75% and 90%',()=>{assert.equal(classify(74,100),'normal');assert.equal(classify(75,100),'watch');assert.equal(classify(89,100),'watch');assert.equal(classify(90,100),'critical');assert.equal(classify(150,100),'critical');});
+test('stale critical telemetry is unknown',()=>assert.equal(classify(100,100,true),'unknown'));
+test('invalid readings rejected',()=>{for(const pair of [[-1,10],[1,0],[NaN,10],[1,Infinity]])assert.throws(()=>classify(...pair),RangeError);});
+test('deterministic scenarios reproduce surge and outage',()=>{assert.deepEqual(snapshot(4,'normal'),snapshot(4,'normal'));assert.equal(snapshot(0,'surge')[0].status,'critical');assert.equal(snapshot(0,'outage')[1].status,'unknown');assert.throws(()=>snapshot(0,'bad'),RangeError);assert.throws(()=>snapshot(-1),RangeError);});
+test('incident validation and immutable acknowledgement',()=>{assert.throws(()=>createIncident('bad','message',1,'now'));assert.throws(()=>createIncident('south-bank','a',1,'now'));assert.throws(()=>createIncident('south-bank','x'.repeat(241),1,'now'));const i=createIncident('south-bank','  test message  ',1,'now');assert.equal(i.message,'test message');assert.equal(acknowledge(i).status,'acknowledged');assert.equal(i.status,'open');});
+test('CSV escapes quotes and formula prefixes',()=>{const csv=exportIncidents([{id:'1',zone:'south-bank',message:'=CMD("x,y")',time:'now',status:'open'}]);assert.ok(csv.includes('"\'=CMD(""x,y"")"'));assert.equal(exportIncidents([]),'id,zone,message,time,status');});

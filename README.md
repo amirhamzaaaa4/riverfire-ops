@@ -4,7 +4,7 @@
 
 Plan the delivery. Inspect the requirements. Explore a crowd surge. Record and acknowledge a simulated incident.
 
-![Riverfire Ops dashboard](docs/images/dashboard.png)
+The demo includes a precinct overview, synthetic telemetry, an incident workflow and a source delivery board.
 
 ## Why this project exists
 
@@ -52,7 +52,7 @@ The original coursework uses Microsoft Project and Taiga. Reports describe a **1
 
 The Taiga export is the source of the sanitized backlog in [`data/`](data). Its recorded statuses remain intact. The report describes feature completion, but several exported stories remain New or In progress. This repository does not treat those reports as proof of a completed application.
 
-The browser app, model tests, CI and portfolio documentation are **new AI-assisted portfolio extensions**. They do not establish that the app existed during the course or operated at Riverfire.
+The browser app, model tests, CI and portfolio documentation are **new portfolio extensions**. They do not establish that the app existed during the course or operated at Riverfire.
 
 ## Explore the documentation
 
@@ -80,7 +80,7 @@ The app uses native JavaScript modules and CSS. The local server uses Node's sta
 
 ## Publish the demo
 
-Once the repository is on GitHub, open **Settings → Pages**, choose **GitHub Actions** as the source, and run **Deploy demo to GitHub Pages** from the Actions tab. Relative asset paths support hosting under a repository subpath. The Pages workflow publishes the app and public documentation only.
+GitHub Pages can deploy from the `main` branch at `/ (root)` with the included `.nojekyll` file. Alternatively, choose **GitHub Actions** as the Pages source and manually run **Deploy demo to GitHub Pages**. Relative asset paths support hosting under a repository subpath. The manual workflow publishes the app and public documentation only.
 
 ## Ownership and attribution
 
